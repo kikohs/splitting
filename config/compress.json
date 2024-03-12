@@ -16,7 +16,7 @@
       "typeofs": false
     },
     "output": {
-      "semicolons": false
+      "semicolons": true
     },
     "mangle": true,
     "toplevel": false,
