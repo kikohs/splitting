@@ -6,7 +6,7 @@ import uglifyOptions from './compress.json';
 export default {
   input: 'src/lite.js', 
   output: [ 
-    { file: 'dist/splitting-lite.min.js', name: 'Splitting', format: 'umd' },
+    { file: 'dist/splitting-lite.min.js', name: 'Splitting', format: 'iife' },
   ],
   plugins: [
     size(),
